@@ -1,6 +1,6 @@
 import { Component, ChangeDetectorRef, inject } from '@angular/core';
 import { AsyncPipe } from '@angular/common';
-import {Task} from '../core/services/task';
+import {Task} from '../../core/services/task';
 
 @Component({
   selector: 'app-home',
