@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Taskboard.pro": {
+    "Taskboard_pro": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Taskboard.pro:build:production"
+              "buildTarget": "Taskboard_pro:build:production"
             },
             "development": {
-              "buildTarget": "Taskboard.pro:build:development"
+              "buildTarget": "Taskboard_pro:build:development"
             }
           },
           "defaultConfiguration": "development"
